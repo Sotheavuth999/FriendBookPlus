@@ -7,17 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		630FAFCD1F4C6FAB00CCA78F /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630FAFCC1F4C6FAB00CCA78F /* Friend.swift */; };
+		632A9F471F4C66AB0079B480 /* FriendDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632A9F461F4C66AB0079B480 /* FriendDetailViewController.swift */; };
 		63EF45721F4C5F9A00329A31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EF45711F4C5F9A00329A31 /* AppDelegate.swift */; };
-		63EF45741F4C5F9A00329A31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EF45731F4C5F9A00329A31 /* ViewController.swift */; };
+		63EF45741F4C5F9A00329A31 /* FriendListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EF45731F4C5F9A00329A31 /* FriendListViewController.swift */; };
 		63EF45771F4C5F9B00329A31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63EF45751F4C5F9B00329A31 /* Main.storyboard */; };
 		63EF45791F4C5F9B00329A31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63EF45781F4C5F9B00329A31 /* Assets.xcassets */; };
 		63EF457C1F4C5F9B00329A31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63EF457A1F4C5F9B00329A31 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		630FAFCC1F4C6FAB00CCA78F /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		632A9F461F4C66AB0079B480 /* FriendDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendDetailViewController.swift; sourceTree = "<group>"; };
 		63EF456E1F4C5F9A00329A31 /* FriendBookPlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FriendBookPlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63EF45711F4C5F9A00329A31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		63EF45731F4C5F9A00329A31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		63EF45731F4C5F9A00329A31 /* FriendListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendListViewController.swift; sourceTree = "<group>"; };
 		63EF45761F4C5F9B00329A31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		63EF45781F4C5F9B00329A31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63EF457B1F4C5F9B00329A31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				63EF45711F4C5F9A00329A31 /* AppDelegate.swift */,
-				63EF45731F4C5F9A00329A31 /* ViewController.swift */,
+				63EF45731F4C5F9A00329A31 /* FriendListViewController.swift */,
 				63EF45751F4C5F9B00329A31 /* Main.storyboard */,
 				63EF45781F4C5F9B00329A31 /* Assets.xcassets */,
 				63EF457A1F4C5F9B00329A31 /* LaunchScreen.storyboard */,
 				63EF457D1F4C5F9B00329A31 /* Info.plist */,
+				632A9F461F4C66AB0079B480 /* FriendDetailViewController.swift */,
+				630FAFCC1F4C6FAB00CCA78F /* Friend.swift */,
 			);
 			path = FriendBookPlus;
 			sourceTree = "<group>";
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63EF45741F4C5F9A00329A31 /* ViewController.swift in Sources */,
+				63EF45741F4C5F9A00329A31 /* FriendListViewController.swift in Sources */,
 				63EF45721F4C5F9A00329A31 /* AppDelegate.swift in Sources */,
+				632A9F471F4C66AB0079B480 /* FriendDetailViewController.swift in Sources */,
+				630FAFCD1F4C6FAB00CCA78F /* Friend.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +312,7 @@
 				63EF45821F4C5F9B00329A31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
